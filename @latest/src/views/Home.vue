@@ -171,8 +171,19 @@
   margin: 0;
 }
 
+
 @media (max-width: 992px) {
-  .features-matrix { grid-template-columns: 1fr; }
-  .hero-block h1 { font-size: 2.75rem; }
+  .features-matrix {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .hero-block h1 {
+    font-size: 2.75rem;
+    line-height: 1.2;
+  }
+  .home-container {
+    padding: 3rem 1.5rem;
+  }
 }
+
 </style>

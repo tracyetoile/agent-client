@@ -285,4 +285,23 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 992px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .reports-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+  }
+  .actions-row {
+    width: 100%;
+  }
+  .generate-btn, .time-select {
+    flex: 1;
+    text-align: center;
+  }
+}
+
 </style>

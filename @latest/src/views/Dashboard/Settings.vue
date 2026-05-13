@@ -350,4 +350,13 @@ const updatePassword = () => {
   border-radius: 10px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .settings-card {
+    padding: 1.75rem;
+  }
+  .form-select, .select-wrapper {
+    max-width: 100%;
+  }
+}
+
 </style>

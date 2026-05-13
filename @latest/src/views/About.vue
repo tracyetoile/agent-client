@@ -177,9 +177,23 @@
   line-height: 1.4;
 }
 
+
 @media (max-width: 992px) {
-  .intro-grid { grid-template-columns: 1fr; gap: 2rem; margin-bottom: 4rem; }
-  .blueprint-row { grid-template-columns: 1fr; gap: 2rem; }
-  .blueprint-card { padding: 2.5rem; }
+  .intro-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  .blueprint-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .blueprint-card {
+    padding: 2.5rem;
+  }
+  .about-wrapper {
+    padding: 3rem 1.5rem;
+  }
 }
+
 </style>
