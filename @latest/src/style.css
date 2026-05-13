@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc;
+  -webkit-font-smoothing: antialiased;
+}
+@import url('googleapis.com');
+
+:root {
+  --primary: #0f62fe;
+  --primary-hover: #0043ce;
+  --text-main: #161616;
+  --text-muted: #525252;
+  --bg-surface: #ffffff;
+  --bg-app: #f4f4f7;
+  --border-subtle: #e0e0e0;
+  --radius-card: 20px;
+  --radius-btn: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
